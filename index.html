@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS Dashboard - Analytics Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">NEXUS</div>
+                <p class="logo-subtitle">Analytics</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <span class="nav-icon">◆</span>
+                    <span class="nav-text">Overview</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">▲</span>
+                    <span class="nav-text">Analytics</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">●</span>
+                    <span class="nav-text">Reports</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">■</span>
+                    <span class="nav-text">Users</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">◆</span>
+                    <span class="nav-text">Settings</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="user-avatar">A</div>
+                    <div class="user-info">
+                        <p class="user-name">Alex Chen</p>
+                        <p class="user-role">Admin</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-left">
+                    <h1 class="page-title">Dashboard Overview</h1>
+                    <p class="page-subtitle">Monitor your key metrics in real-time</p>
+                </div>
+                <div class="header-right">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search..." class="search-input">
+                    </div>
+                    <button class="notification-btn">
+                        <span class="notification-badge">3</span>
+                        ⬣
+                    </button>
+                </div>
+            </header>
+
+            <!-- Stats Cards -->
+            <section class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Total Users</span>
+                        <span class="stat-trend positive">+12.5%</span>
+                    </div>
+                    <div class="stat-value">24,583</div>
+                    <div class="stat-chart">
+                        <div class="mini-chart">
+                            <div class="chart-bar" style="height: 40%"></div>
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 45%"></div>
+                            <div class="chart-bar" style="height: 75%"></div>
+                            <div class="chart-bar" style="height: 55%"></div>
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Revenue</span>
+                        <span class="stat-trend positive">+8.2%</span>
+                    </div>
+                    <div class="stat-value">$128.4K</div>
+                    <div class="stat-chart">
+                        <div class="mini-chart">
+                            <div class="chart-bar" style="height: 50%"></div>
+                            <div class="chart-bar" style="height: 55%"></div>
+                            <div class="chart-bar" style="height: 65%"></div>
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 75%"></div>
+                            <div class="chart-bar" style="height: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Conversion</span>
+                        <span class="stat-trend negative">-2.4%</span>
+                    </div>
+                    <div class="stat-value">3.24%</div>
+                    <div class="stat-chart">
+                        <div class="mini-chart">
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 65%"></div>
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 55%"></div>
+                            <div class="chart-bar" style="height: 50%"></div>
+                            <div class="chart-bar" style="height: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-label">Active Now</span>
+                        <span class="stat-trend positive">+45</span>
+                    </div>
+                    <div class="stat-value">1,842</div>
+                    <div class="stat-chart">
+                        <div class="mini-chart">
+                            <div class="chart-bar" style="height: 30%"></div>
+                            <div class="chart-bar" style="height: 50%"></div>
+                            <div class="chart-bar" style="height: 40%"></div>
+                            <div class="chart-bar" style="height: 70%"></div>
+                            <div class="chart-bar" style="height: 60%"></div>
+                            <div class="chart-bar" style="height: 80%"></div>
+                            <div class="chart-bar" style="height: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Table -->
+            <section class="data-section">
+                <div class="section-header">
+                    <h2 class="section-title">Recent Transactions</h2>
+                    <button class="export-btn">Export Data</button>
+                </div>
+                <div class="data-table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>User</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#8432</td>
+                                <td>Sarah Mitchell</td>
+                                <td>2025-02-24</td>
+                                <td>$2,450.00</td>
+                                <td><span class="status-badge success">Completed</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#8431</td>
+                                <td>Marcus Johnson</td>
+                                <td>2025-02-24</td>
+                                <td>$1,200.00</td>
+                                <td><span class="status-badge pending">Pending</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#8430</td>
+                                <td>Emily Rodriguez</td>
+                                <td>2025-02-23</td>
+                                <td>$3,890.00</td>
+                                <td><span class="status-badge success">Completed</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#8429</td>
+                                <td>David Kim</td>
+                                <td>2025-02-23</td>
+                                <td>$890.00</td>
+                                <td><span class="status-badge failed">Failed</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>#8428</td>
+                                <td>Lisa Anderson</td>
+                                <td>2025-02-22</td>
+                                <td>$5,200.00</td>
+                                <td><span class="status-badge success">Completed</span></td>
+                                <td><button class="action-btn">View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Activity Feed -->
+            <section class="activity-section">
+                <h2 class="section-title">Recent Activity</h2>
+                <div class="activity-feed">
+                    <div class="activity-item">
+                        <div class="activity-icon">●</div>
+                        <div class="activity-content">
+                            <p class="activity-text"><strong>New user registered</strong> - Sarah M. joined the platform</p>
+                            <span class="activity-time">2 minutes ago</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">▲</div>
+                        <div class="activity-content">
+                            <p class="activity-text"><strong>Revenue milestone</strong> - $100K monthly revenue achieved</p>
+                            <span class="activity-time">1 hour ago</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">■</div>
+                        <div class="activity-content">
+                            <p class="activity-text"><strong>System update</strong> - Database optimization completed</p>
+                            <span class="activity-time">3 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">◆</div>
+                        <div class="activity-content">
+                            <p class="activity-text"><strong>New feature deployed</strong> - Advanced analytics now available</p>
+                            <span class="activity-time">5 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

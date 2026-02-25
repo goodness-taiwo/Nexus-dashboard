@@ -1,0 +1,55 @@
+:root {
+    --color-bg: #0A0A0A;
+    --color-surface: #141414;
+    --color-surface-light: #1E1E1E;
+    --color-border: #2A2A2A;
+    --color-accent: #00D9FF;
+    --color-accent-dark: #00B8D4;
+    --color-text: #FFFFFF;
+    --color-text-dim: #999999;
+    --color-text-muted: #666666;
+    --color-success: #00FF88;
+    --color-warning: #FFB800;
+    --color-danger: #FF3366;
+    
+    --font-display: 'IBM Plex Mono', monospace;
+    --font-body: 'Inter', sans-serif;
+    
+    --sidebar-width: 260px;
+    --header-height: 80px;
+    
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-body);
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    background: var(--color-surface);
+    border-right: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
