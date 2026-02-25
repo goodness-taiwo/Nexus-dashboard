@@ -2,7 +2,7 @@
 
 A modern, dark-themed admin dashboard built with pure HTML and CSS. Features a clean industrial aesthetic with cyan accents and smooth animations.
 
-(./screenshots/dashboard-preview.png)
+
 
 ##  Features
 
@@ -24,7 +24,7 @@ A modern, dark-themed admin dashboard built with pure HTML and CSS. Features a c
 ![Desktop Dashboard](./screenshots/mydashboard.png)
 
 ### Mobile View
-![Mobile Dashboard](./screenshots/mobile view.png)
+![Mobile Dashboard](./screenshots/seconddashboard.png)
 
 ##  Technologies Used
 
